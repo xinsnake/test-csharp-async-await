@@ -16,6 +16,7 @@ namespace AsyncAwait
                 {
                     s.StartTrip();
                     s.StartBatteryLoop();
+                    s.StartEngineLoop();
                 }
 
                 if (s.BatteryLevel < 10)
